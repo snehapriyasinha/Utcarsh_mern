@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -15,13 +15,12 @@
   },
   "scripts": {
     "start": "node server.js",
-    "server":"nodemon server.js"
+    "server": "nodemon server.js"
   },
   "name": "backend",
   "version": "1.0.0",
   "description": "backend for utcarsh mern project",
   "main": "server.js",
-  "devDependencies": {},
   "author": "SnehaPriya",
   "license": "ISC",
   "type": "module"
